@@ -198,7 +198,6 @@ function Render({ TabHeight, currentIndex, setCurrentIndex, index, status, video
         preTriggerRatio={0.000000000000002}
         onViewportLeave={() => video.current[index].pauseAsync()}
         onViewportEnter={() => {
-          console.log(`About to leave current page to ${index + 1}`)
           setStatus('PLAY')
           setCurrentIndex(index)
         }}
