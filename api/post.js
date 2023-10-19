@@ -1,4 +1,4 @@
-const URL = "https://videocomp.onrender.com"
+export const URL = "https://videocomp.onrender.com"
 // const URL = "http://localhost:3002"
 
 export async function InsertPost(form) {
